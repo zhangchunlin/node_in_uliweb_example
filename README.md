@@ -26,4 +26,4 @@
 
 ## Known issue
 
-1. When nodejs source code changed and built, in browser need to use 'Ctrl+Shirt+R' to refresh, so that browser won't use old version in cache.
+1. When nodejs source code changed and built, in browser need to use 'Ctrl+Shift+R' to refresh, so that browser won't use old version in cache.
