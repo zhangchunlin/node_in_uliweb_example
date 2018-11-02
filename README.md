@@ -3,8 +3,8 @@
 ## How to embedding?
 
 1. Create a uliweb app for nodejs app like [node_example](apps/node_example)
-2. Configure publicPath under static directory, [example: publicPath: '/static/node/'](apps/node_example/webpack.prod.config.js)
-3. Configure npm scripts to watch source code and build, [example](apps/node_example/package.json)
+2. Configure publicPath under static directory, [example: publicPath: '/static/node/'](apps/node_example/webpack.prod.config.js#L11)
+3. Configure npm scripts to watch source code and build, [example](apps/node_example/package.json#L6)
 4. Run uliweb debug server: uliweb runserver
 5. Run npm script to watch and build
 
