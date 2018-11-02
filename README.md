@@ -1,5 +1,10 @@
 # Example of embedding nodejs app in uliweb project
 
+## Why?
+
+1. Can debug and deploy with same style
+2. No cross-domain needed
+
 ## How to embedding?
 
 1. Create a uliweb app for nodejs app like [node_example](apps/node_example)
@@ -19,3 +24,6 @@
 4. In nodejs source code root run watch and build command:
    1. npm run build:watch
 
+## Known issue
+
+1. When nodejs source code changed and built, in browser need to use 'Ctrl+Shirt+R' to refresh, so that browser won't use old version in cache.
