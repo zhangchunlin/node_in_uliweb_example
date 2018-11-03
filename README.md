@@ -23,6 +23,9 @@
    1. uliweb runserver
 4. In nodejs source code root run watch and build command:
    1. npm run build:watch
+5. Access http://localhost:8000 to view the dev web server
+6. Try to modify nodejs source code( for example app.vue )
+7. Try to refresh browser with Ctrl+Shift+R or disable the browser cache to see the result after modification
 
 ## Known issue
 
